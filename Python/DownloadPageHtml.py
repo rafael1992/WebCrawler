@@ -2,16 +2,14 @@ import urllib
 import time
 
 # URL
-#url = 'http://www.carlissongaldino.com.br/modules/pubdlcnt/pubdlcnt.php?file=http://www.carlissongaldino.com.br/sites/default/files/o-fantasma-da-opera.pdf&nid=1287'
-
 url = 'http://pwi.com.br'
-print "baixando . . . "
+print "Baixando . . . "
 
 # Tempo antes do inicio do download
 sec = time.time()
 
 # Iniciando Download
-urllib.urlretrieve(url, "teste.html")
+urllib.urlretrieve(url, "Pagina.html")
 
 # Tempo depois do download
 sec2 = time.time()
